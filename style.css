@@ -1,0 +1,1164 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Signika', sans-serif;
+}
+
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0%;
+    
+    
+}
+#wrapper{
+    
+    width: 90%;
+    min-width: 40%;
+    height:fit-content;
+    margin: 0px 5% 5% 5%;
+    
+
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;   
+    position: fixed; 
+    background-color: black;
+    margin-top: 0em;
+    flex-wrap: wrap;
+    z-index: 3;
+   
+    
+
+
+}
+header #searchbar{
+    
+    height: 50px;
+    width: 10%;
+    
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    left: 0%;
+    
+
+    
+    
+    
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    
+}
+header nav a:hover{
+    color:#ff8a26;
+
+}
+
+
+#wrapper header #moon{
+    width: 60px;
+    height: 61px;
+    
+    
+}
+#wrapper header #moon,a{
+    background-color: black;
+}
+#wrapper header nav ul{
+    color: white;
+    list-style-type: none;
+    display: flex;
+   flex-wrap: wrap;
+   gap: 40px;
+   width: fit-content;
+   justify-content: space-around;
+   padding: 0% 0%;
+   left: 0%;
+    
+
+
+}
+#wrapper nav ul li{
+    display: inline;
+    left: 0%;
+    
+    
+   
+}
+
+main{
+    width: 100%;
+    
+    height: 55em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap:10%;
+    
+
+}
+main #buttonl1,#buttonl2,#buttonl3,#buttonl4{
+    color: black;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 14.5em;
+    width: 15em;
+    
+   
+
+    
+
+}
+
+
+
+
+
+
+
+footer{
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+}
+footer a{
+    height: fit-content;
+    width: fit-content;
+
+    
+    background-repeat: no-repeat;
+    
+
+
+
+}
+footer a:hover svg path{
+    stroke: #ff8a26;
+    fill: #ff8a26;
+}
+.Felipeb{
+    position: relative;
+   
+    width: 100%;
+    color: white;
+    margin-top: 10em;
+
+}
+
+.Felipeb h1{
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+
+@media (min-width:377px) and (max-width:768px){
+   
+    .special{
+        position: relative;
+        top: 450px;
+    }
+    nav{
+        height: fit-content;
+    }
+    header{
+        height: fit-content;
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+    }
+    footer a:active svg path{
+        stroke: #ff8a26;
+        fill: #ff8a26;
+    }
+    header nav a:active{
+        color:#ff8a26;
+    
+    }
+    
+    
+    
+   
+
+
+}
+@media only screen and (max-width:1024px) and (min-width: 768px){
+    
+    .special{
+        position: relative;
+        top: 450px;
+    }
+    header{
+        height: fit-content;
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        z-index: 3;
+
+    }
+    
+}
+@media (max-width:500px) and (min-width:0px) {
+
+    #wrapper header #moon{
+        display: none;
+    }
+    #wrapper header nav ul{
+        gap: 20px;
+       
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        left: 0px;
+        z-index: 3;
+        position: fixed;
+
+    }
+    header #searchbar{
+        display: none;
+    }
+
+    
+   
+
+    
+}
+@media (max-width:377px){
+    #wrapper header nav ul{
+        gap: 10px;
+
+        
+    }
+    header nav a:active{
+        color:#ff8a26;
+    
+    }
+    header{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        z-index: 3;  
+    }
+    .special{
+        position: relative;
+        top: 450px;
+    }
+    header #searchbar{
+        display: none;
+    }
+
+
+}
+
+
+/*This is the general -- like what is applied for all the pages*/
+/*This now is for the index.html*/
+#arrow{
+
+    position: fixed;
+    z-index: 4;
+    bottom: 10em;
+
+
+
+}
+audio{
+    position: fixed;
+    z-index: 4;
+    top: 40em;
+}
+
+main .center #buttonup a,#buttonl2:hover{
+    color: #ff8a26;
+    background-color: #D9D9D9;
+    
+
+}
+
+main .center #buttonup a,#buttonl1:hover{
+    color: #ff8a26;
+    background-color: #D9D9D9;
+
+}
+main .center #buttondown a,#buttonl4:hover{
+    color: #ff8a26;
+    background-color: #D9D9D9;
+
+}
+main .center #buttondown a,#buttonl3:hover{
+    color: #ff8a26;
+    background-color: #D9D9D9;
+
+}
+
+#wrapper .bottitle{
+    font-size: 1.8em;
+    color: white;
+    
+}
+a{ 
+height: fit-content;
+width: fit-content;
+display: inline-block;
+text-decoration: none;
+
+
+}
+
+a span{
+    font-size: 1.5em;
+}
+
+.center{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+main .center #buttonup,#buttondown{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+
+
+}
+.bottom{
+   
+    height: 25em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+#buttond{
+   
+    width: 400px;
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0% 0%;
+
+
+}
+#buttond p{
+
+    word-wrap: break-word;
+    line-height: 30px;
+    margin: 10px 10px; 
+    width: 60%;
+    
+    
+}
+
+#buttonimg{
+    background-image: url(./Images/studying_night_1.gif);
+    height: 100%;
+    width: 400px;
+    background-repeat: no-repeat;
+
+
+
+
+}
+
+@media (min-width:377px) and (max-width:768px) {
+    .bottom{
+        display: flex;
+        gap: 15px;
+
+    }
+    .bottitle{
+        margin-top: 200px;
+        
+    }
+    
+    main .center #buttonup,#buttondown{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    main .center #buttonup a,#buttonl2:active{
+        color: #ff8a26;
+        background-color: #D9D9D9;
+        
+    
+    }
+    
+    main .center #buttonup a,#buttonl1:active{
+        color: #ff8a26;
+        background-color: #D9D9D9;
+    
+    }
+    main .center #buttondown a,#buttonl4:active{
+        color: #ff8a26;
+        background-color: #D9D9D9;
+    
+    }
+    main .center #buttondown a,#buttonl3:active{
+        color: #ff8a26;
+        background-color: #D9D9D9;
+    
+    }
+    
+    
+    
+}
+
+@media only screen and (max-width:1024px) and (min-width: 768px){
+
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+
+    }
+    .bottitle{
+        margin-top: 50px;
+        
+    }
+    main .center #buttonup,#buttondown{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        gap: 2em;
+    
+    
+    }
+    main .center #buttonup a,#buttonl2:active{
+        color: #ff8a26;
+        background-color: #D9D9D9;
+        
+    
+    }
+    
+    main .center #buttonup a,#buttonl1:active{
+        color: #ff8a26;
+        background-color: #D9D9D9;
+    
+    }
+    main .center #buttondown a,#buttonl4:active{
+        color: #ff8a26;
+        background-color: #D9D9D9;
+    
+    }
+    main .center #buttondown a,#buttonl3:active{
+        color: #ff8a26;
+        background-color: #D9D9D9;
+    
+    }
+    #buttonimg,#buttond{
+        width: 350px;
+
+    }
+   
+
+}
+@media (max-width:377px){
+    .bottom{
+        display: flex;
+        gap: 15px;
+
+    }
+    .bottitle{
+        margin-top: 200px;
+        
+    }
+    #buttond p{
+
+        word-wrap: break-word;
+        line-height: 30px;
+        margin: 10px 10px; 
+        width: 80%;
+        
+        
+    }
+    main .center #buttonup,#buttondown{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*This now is for the sitemap.html*/
+
+main{
+    display: flex;
+    justify-content: space-around;
+
+}
+main .sitemap{
+
+    
+    
+    list-style-type: none;
+    color:white;
+
+   
+
+
+
+}
+main .sitemap a{
+    display: block;
+    margin-bottom: 2em;
+    color: white;
+    font-size: 1.5em;
+
+   
+    
+
+}
+main .sitemap a:hover{
+    color: #ff8a26;
+}
+#bigG{
+    
+    width: 20em ;
+    height: 20em;
+
+
+
+}
+
+@media (min-width:377px) and (max-width:768px) {
+    .sitemap-special{
+        position: relative;
+        top: 150px;
+        
+    }
+    main .sitemap{
+
+    
+        position: relative;
+        top: 10px;
+        list-style-type: none;
+        color:white;
+    
+       
+    
+    
+    
+    }
+    main .sitemap a:checked{
+        color: #ff8a26;
+    }
+
+    
+}
+
+
+@media (max-width:377px){
+    .sitemap-special{
+        position: relative;
+        top: 150px;
+        
+    }
+    main .sitemap{
+
+    
+        position: relative;
+        top: 20px;
+        list-style-type: none;
+        color:white;
+    
+       
+    
+    
+    
+    }
+
+
+}
+
+
+
+
+
+
+/* Now it is for projects.html */
+
+main #projects{
+    
+   
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+   
+}
+main #projects figure{
+    
+    color: white;
+    width: 25em;
+    height: 14em;
+    text-align: center;
+    margin: 0px 0px;
+    
+    
+
+
+}
+
+main #projects a{
+    margin: 0% 0%;
+    width: fit-content;
+    padding: 0px 0px;
+    display: inline;
+}
+a:hover figcaption{
+    color: #ff8a26;
+}
+#row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    height: max-content;
+    width: max-content;
+    align-items: center;
+
+}
+#fig2img, #fig1img{
+    height: 170.6px;
+    width: 300px;
+}
+
+
+@media (min-width:377px) and (max-width:768px) {
+   #row1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: max-content;
+    width: max-content;
+   }
+   
+   #fig2img, #fig1img{
+    height: 175.6px;
+    width: 300px;
+    
+    }
+    main #projects figure{
+    
+        color: white;
+        width: 20em;
+        height: 15em;
+        text-align: center;
+        margin: 0px 0px;
+        
+        
+    
+    
+    }
+    a:active figcaption{
+        color: #ff8a26;
+    }
+
+    
+}
+@media (max-width:377px){
+    #row1{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        height: max-content;
+        width: max-content;
+       }
+       #fig2img, #fig1img{
+        height: 175.6px;
+        width: 300px;
+        
+        }
+    main #projects #row1 a figure{
+        height: fit-content;
+        width: fit-content;
+    }
+    main #projects figure{
+    
+        color: white;
+        width: 15em;
+        height: 15em;
+        text-align: center;
+        margin: 0px 0px;
+        
+        
+    
+    
+    }
+    a:active figcaption{
+        color: #ff8a26;
+    }
+    
+}
+
+
+
+
+
+
+/* This is for the Contact.html*/
+
+
+
+main .contacts{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    width: 100%;
+    height: max-content;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  
+    flex-direction: row;
+
+
+
+}
+
+main .contacts a svg{
+    
+    width: 8em;
+    height: 8em;
+    
+
+}
+svg:hover{
+    stroke:#ff8a26;
+}
+@media (min-width:377px) and (max-width:768px){
+    main .contacts{
+        width: 300px;
+        gap: 10px;
+       }
+       svg:active{
+        stroke:#ff8a26;
+    }
+
+}
+@media only screen and (max-width:1024px) and (min-width: 768px){
+    svg:active{
+        stroke:#ff8a26;
+    }
+
+}
+
+
+
+/* Now this is for aboutme.html*/
+
+main .info{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: max-content;
+    width: 100%;
+    gap: 5px;
+
+
+
+}
+
+main .info a{
+    width: fit-content;
+    height: fit-content;
+}
+main .info a svg{
+
+    width: 11.5em;
+    height: 11.5em;
+}
+main .info a:hover #profile g{
+    
+    fill: #ff8a26;
+    
+}
+main .info a:hover #EXPERT{
+    fill: #ff8a26;
+}
+main .info a:hover #LOCATION{
+    stroke: #ff8a26;
+}
+
+#aexperience,#alife,#alocation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+figcaption{
+    color: white;
+    font-size: 1.2em;
+
+}
+main .info a:hover figcaption{
+    color: #ff8a26;
+}
+.column{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+@media (min-width:377px) and (max-width:768px) {
+   main .info{
+    display: flex;
+    flex-direction: column;
+    
+   }
+   main .info a{
+    margin-top: 10px;
+   }
+   main .info a:active #LOCATION{
+    stroke: #ff8a26;
+}
+   
+   
+     
+ }
+@media (max-width:1024px) and (min-width: 768px){
+    main .info{
+        display: flex;
+        flex-direction: column;
+        
+       }
+       main .info a{
+        margin-top: 10px;
+       }
+       main .info a:active #LOCATION{
+        stroke: #ff8a26;
+    }
+
+
+    }
+
+/* This is for Experience.html */
+
+.EXP{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    
+    
+}
+
+.EXP dt{
+    font-size: 2em;
+    font-weight: bolder;
+    margin-top: 10%;
+    
+}
+
+.EXP dd{
+    font-size: 1em;
+
+
+}
+
+/*Now fo Location.html */
+
+main .local{
+    
+   
+    width: 100%;
+    height: 30em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+
+
+}
+main .local #dec{
+    background-color: white;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+
+}
+
+main .local #dec p{
+    word-wrap: break-word;
+    line-height: 30px;
+    width: 60%;
+    margin: 10% 10%;
+    
+}
+
+main .local #locationimg{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    height: 100%;
+    width: 40%;
+
+
+
+}
+main .local #locationimg img{
+
+    height:150px;
+    width: 150px;
+
+
+}
+@media (max-width:1024px) and (min-width: 768px){
+    .local{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+    main .local #dec{
+        width: 541.15px;
+    }
+    main .local #locationimg{
+        width: 541.15px;
+
+    }
+    main .local #dec p{
+        word-wrap: break-word;
+        line-height: 30px;
+        width: 80%;
+        margin: 10% 10%;
+        
+    }
+    main .local #dec p{
+        word-wrap: break-word;
+        line-height: 30px;
+        width: 60%;
+        margin: 10% 10%;
+        
+    }
+
+}
+@media (min-width:377px) and (max-width:768px){
+
+    .local{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+    main .local #dec{
+        width: 541.15px;
+    }
+    main .local #locationimg{
+        width: 541.15px;
+
+    }
+    main .local #dec p{
+        word-wrap: break-word;
+        line-height: 30px;
+        width: 80%;
+        margin: 10% 10%;
+        
+    }
+}
+@media (max-width:377px){
+    .local{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+    main .local #dec{
+        width: 541.15px;
+    }
+    main .local #locationimg{
+        width: 541.15px;
+
+    }
+    main .local #dec p{
+        word-wrap: break-word;
+        line-height: 28px;
+        width: 90%;
+        margin: 10% 10%;
+        
+    }
+
+}
+
+
+
+/* This is about life.html*/
+
+
+main .aligner .life{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    padding: 0% 0%;
+    height: 100% ;
+    
+
+}
+main .aligner .life p{
+    word-wrap: break-word;
+    line-height: 27px;
+    margin: 10px 10px; 
+    width: 70%;
+    
+}
+main .aligner .life img{
+    transform: skewY(-10deg);
+}
+main .aligner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 30em;
+    flex-wrap: wrap;
+}
+@media (max-width:1024px) and (min-width: 768px){
+    main .aligner .life{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 541.5px;
+        padding: 0% 0%;
+        
+        
+    
+    }
+    main .aligner{
+        
+        gap: 60px;
+    }
+    main .aligner .life p{
+        width: 80%;
+    }
+
+}
+@media (min-width:377px) and (max-width:768px){
+    main .aligner .life{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 541.5px;
+        padding: 0% 0%;
+        
+        
+    
+    }
+    main .aligner{
+        
+        gap: 60px;
+    }
+    main .aligner .life p{
+        width: 80%;
+        line-height: 28px;
+    }
+}
+@media (max-width:377px){
+    main .aligner .life{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 541.5px;
+        padding: 0% 0%;
+        
+        
+    
+    }
+    main .aligner{
+        
+        gap: 60px;
+    }
+    main .aligner .life p{
+        width: 95%;
+        line-height: 27px;
+    }
+    main .aligner .life{
+        
+        height: 30em ;
+        
+    
+    }
+
+}
+
+
+
+
